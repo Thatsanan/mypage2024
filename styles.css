@@ -1,40 +1,63 @@
-table {
+body {
+    background-color: #DDF7E3;
+}
+
+hr {
+    color: rgb(247, 31, 31);
+    border-style: dotted none none;
+    width: 1000px;
+    border-width: 5px;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+}
+
+.table1 table {
+    border-style: none;
+
+}
+
+.table2 table {
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
-  }
-  
-  caption {
+}
+
+.table2 caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
-  }
-  
-  thead,
-  tfoot {
+}
+
+.table2 thead,
+tfoot {
     background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
+}
+
+.table2 th,
+td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
-  }
-  
-  td:last-of-type {
+}
+
+.table2 td:last-of-type {
     text-align: center;
-  }
-  
-  tbody > tr:nth-of-type(even) {
+}
+
+.table2 tbody>tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
-  }
-  
-  tfoot th {
+}
+
+.table2 tfoot th {
     text-align: right;
-  }
-  
-  tfoot td {
+}
+
+.table2 tfoot td {
     font-weight: bold;
-  }
+}
